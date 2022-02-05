@@ -1,0 +1,42 @@
+.divv {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#b09fe8, #faaca8);
+}
+
+.containerdiv {
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0;
+}
+
+.containerdiv::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.containerdiv img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.containerdiv span {
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+@media (max-width: 500px) {
+    .containerdiv {
+        text-align: center;
+    }
+
+    .containerdiv img {
+        margin: auto;
+        float: none;
+        display: block;
+    }
+}

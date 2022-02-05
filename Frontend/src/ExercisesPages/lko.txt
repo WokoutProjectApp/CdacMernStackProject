@@ -1,0 +1,25 @@
+import React from 'react';
+import './PushUp.css'
+
+import video from '../component/videos/Gym.mp4'
+const PushUp = () => {
+    return (
+        <>
+            <div className="rightdiv">
+                <h1><u>Push-Ups</u></h1>
+
+                <p className="textPara">
+                    The push-up builds both upper-body and core strength ,It has many modifications; beginners can start with easier versions, while more advanced exercisers can use a challenging variation. You can do the push-up as part of a bodyweight exercise session, a circuit training workout, or a strength workout.
+                </p>
+
+            </div>
+            <div style={{ height: "88vh", width: "50%", float: "left" }}>
+                <div className="hero">
+                    <video className="video1" src={video} autoPlay loop muted />
+                </div>
+            </div>
+        </>
+    )
+}
+
+export default PushUp;

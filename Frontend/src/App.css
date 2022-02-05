@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.home,
+.services,
+.about,
+.contact,
+.register .sign-up {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+.services {
+    background-image: url('./component/images/homee.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about {
+    background-image: url('./component/images/homee.jpg');
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 50px;
+}
+
+.contact {
+    background-image: url('./component/images/homee.jpg');
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 50px;
+}
+
+.register {
+    /* background-image: url('./component/images/homee.jpg'); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    background-color: rgb(87, 196, 196);
+    /* font-size: 50px; */
+}
+
+/* .sign-up {
+    background-image: url('./component//images/blog-5.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+} */
